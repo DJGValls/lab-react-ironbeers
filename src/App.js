@@ -4,7 +4,7 @@ import Nav from './components/Nav';
 import Beers from './pages/Beers';
 import BeerDetails from './pages/BeerDetails';
 import RandomBeer from './pages/RandomBeer';
-
+import NewBeer from './pages/NewBeer';
 
 import './App.css';
 
@@ -19,7 +19,7 @@ function App() {
         <Route path='/beers' element={<Beers />}>List Of Beers</Route>
         <Route path='/beers/:beerId' element={<BeerDetails />}>Beer detail</Route>
         <Route path='/beers/random' element={<RandomBeer />}>Home</Route>
-        <Route path='/beers/newBeer'>Home</Route>
+        <Route path='/beers/newBeer' element={<NewBeer />}>Home</Route>
 
 
 
